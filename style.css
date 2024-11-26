@@ -1,0 +1,28 @@
+body {
+    background-color: #441738;
+    color: white;
+    font-family: "Caveat", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    margin: 0;
+}
+button {
+    background-color: #f028cb;
+    color: white;
+    font-family: "Caveat", serif;
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display:block;
+}
+main {
+    text-align: center;
+    max-width: 90%;
+}
+img {
+    max-width: 60%;
+}
